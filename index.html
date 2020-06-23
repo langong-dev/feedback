@@ -9,13 +9,30 @@
   margin: 0 auto;
   padding-bottom: 60px;
 }
+.usrimg {}
+.usrimg a{text-decoration: none;color:black;}
+.usrimg a:visited{text-decoration: none;color:black;}
+.usrimg a:hover {text-decoration: none;color:black;}
+.usrimg a:active{text-decoration:none;color:black;}
+
     </style>
   </head>
   <body>
+    <br>
     <center>
       <h1>LanGongFeedBack</h1>
-      </center>
-      <div id="gitalk-container" class="page"></div>
+    </center>
+    <div class="page usrimg">
+      <a href="/"> &lsaquo; 首页Home </a>
+      |
+      <a href="/en/guide/"> &lsaquo; 导航Guide </a>
+      |
+      <a href="https://github.com/langong-dev"> &lsaquo; GitHub <a>
+    </div>
+    <br>
+    <hr width="90%">
+    <br>
+    <div id="gitalk-container" class="page"></div>
     
     <script>
       var gitalk = new Gitalk({
